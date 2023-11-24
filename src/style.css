@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#image img {
+    width: 25vw;
+}
+
+#image {
+    margin-top: -200px;
+}
+
+#text {
+    width: 25vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text h1 {
+    width: 300px;
+    margin-left: 260px;
+    text-align: center;
+}
+
+#text p {
+    margin: 10px 0px;
+    font-weight: bolder;
+    width: 300px;
+    margin-left: 260px;
+}
+
+#text button {
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 40px;
+    margin-left: 260px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0c508;
+    margin-top: 25vh;
+    height: 75vh;
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    #image img {
+        width: 25vw;
+    }
+    
+    #image {
+        margin-top: -450px;
+    }
+    
+    #text {
+        
+        width: 25vh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #text h1 {
+        width: 300px;
+        margin-left: 260px;
+        text-align: center;
+        margin-top: -200px;
+        margin-left: 100px;
+    }
+    
+    #text p {
+        margin: 10px 0px;
+        font-weight: bolder;
+        width: 300px;
+        margin-left: 160px;
+    }
+    
+    #text button {
+        background-color: black;
+        color: white;
+        width: 140px;
+        height: 40px;
+        margin-left: 100px;
+    }
+    
+    #container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f0c508;
+        margin-top: 25vh;
+        height: 75vh;
+    }
+}
+
+@media screen and  (max-width:576px) {
+    body{
+        width: min-content;
+    }
+    #image img {
+        width: 25vw;
+    }
+    
+    #image {
+        margin-top: -450px;
+    }
+    
+    #text {
+        
+        width: 25vh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #text h1 {
+        width: 300px;
+        margin-left: 260px;
+        text-align: center;
+        margin-top: -200px;
+        margin-left: 100px;
+    }
+    
+    #text p {
+        margin: 10px 0px;
+        font-weight: bolder;
+        width: 300px;
+        margin-left: 160px;
+    }
+    
+    #text button {
+        background-color: black;
+        color: white;
+        width: 140px;
+        height: 40px;
+        margin-left: 100px;
+    }
+    
+    #container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f0c508;
+        margin-top: 25vh;
+        height: 75vh;
+    }
+}
